@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.team__emloee-card {
+.team__item {
   flex-basis: calc((100% - 90px) / 4);
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -14,7 +14,7 @@
     margin-right: 30px;
   }
 }
-.team-card {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -26,7 +26,7 @@
   color: var(--primari-text-color-theme-ligth);
 }
 
-.position {
+.team__position {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -41,10 +41,7 @@
 .section-team {
   background: #f5f4fa;
 }
-.team-text {
-  padding: 30px 0;
-}
 
-.team-text {
+.team__wrapper {
   padding: 30px 32px;
 }

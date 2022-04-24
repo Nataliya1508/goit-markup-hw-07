@@ -1,4 +1,4 @@
-.clients__list-clients {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
   display: flex;
 }
 
-.clients__list-icon {
+.clients__item {
   flex-basis: calc((100% - 180px) / 6);
 
   &:not(:nth-child(6)) {
@@ -30,12 +30,12 @@
   }
 }
 
-.clients__icon-clients {
+.clients__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .clients__list-clients:hover &,
-  .clients__list-clients:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: var(--accent-color);
   }
 }

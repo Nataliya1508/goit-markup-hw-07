@@ -1,4 +1,4 @@
-.icon-content {
+.benefits-list__box {
   height: 120px;
   background-color: #f5f4fa;
   display: flex;
@@ -6,11 +6,11 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.benefits-list__description:not(:last-child) {
+.benefits-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.benefits-title {
+.benefits-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -20,13 +20,13 @@
 
   color: var(--primari-text-color-theme-ligth);
 }
-.benefits-top {
+.benefits-list__icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.benefits-text {
+.benefits-list__text {
   flex-basis: calc((100%-120px) / 4);
   font-weight: 400;
   font-size: 14px;

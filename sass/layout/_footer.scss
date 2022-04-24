@@ -17,6 +17,11 @@
 
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .footer-title {
   margin-bottom: 20px;
@@ -32,8 +37,13 @@
 
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.contact__info:not(:nth-child(1)) {
+.contact__link:not(:nth-child(1)) {
   margin-top: 9px;
 }
 
@@ -50,15 +60,15 @@
   display: flex;
 }
 
-.footer-post {
+.footer-wrapper {
   display: flex;
   align-items: baseline;
 }
-.footer-conteiner {
+.footer-box {
   margin-right: 70px;
 }
 
-.footer-post {
+.footer-wrapper {
   display: flex;
 }
 

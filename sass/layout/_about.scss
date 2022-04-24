@@ -1,12 +1,12 @@
 .foto {
   display: flex;
 }
-.foto-section {
+.section__no-pading-top {
   position: relative;
   padding-top: 0;
 }
 
-.foto__activity {
+.foto__item {
   position: relative;
   flex-basis: calc((100% - 60px) / 3);
 
@@ -14,7 +14,7 @@
     margin-right: 30px;
   }
 }
-.heading {
+.section__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -25,7 +25,7 @@
   color: var(--primari-text-color-theme-ligth);
 }
 
-.description-images {
+.foto__label {
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
@@ -36,7 +36,7 @@
   color: #ffffff;
 }
 
-.div-description {
+.foto__box {
   position: absolute;
   padding: 27px 82px;
   width: 370px;
